@@ -5,6 +5,13 @@
     box-sizing: border-box; 
 }
 
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering:optimizeLegibility
+}
+
 body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 100%;
